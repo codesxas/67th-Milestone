@@ -1,0 +1,46 @@
+.container-fluid, ul, .topleft-text, .topleft-text a,.head, .bottomleft-text a:hover{
+  background-color: #000;
+  color: white;
+}
+
+.bottomleft-text {
+  top: 50vh;
+}
+
+li .active{
+    color: #fff;
+}
+
+.head{
+  top:10vh;
+  color: #fff;
+}
+
+.description {
+  padding-bottom: 8vh;
+  /* top: 12vh; */
+  color: #ccc;
+}
+
+.hide{
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 601px) {
+  .hide{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hide{
+    font-size: 10px;
+  }
+}
+
+.img{
+  width: 120%;
+  height: auto;
+  padding: 10% 5% 2% 0;
+  position: relative;
+}
